@@ -1,0 +1,159 @@
+html {
+    box-sizing: border-box;
+  }
+
+  *, *::before, *::after{
+    box-sizing: inherit;
+  }
+
+  body {
+    margin: 0;
+    font: 100 14px 'Roboto';
+    background-color: black;
+  }
+
+  .main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    width: 355px;
+    height: 590px;
+    position: relative;
+  }
+  
+  .btn {
+    width: 83px;
+    height: 83px;
+    border: none;
+    text-align: center;
+    line-height: 80px;
+  }
+
+  .btn:active {
+    box-shadow: inset 0px 0px 80px 0px rgba(0,0,0,0.25);
+  }
+
+  .calculadora {
+    width: 355px;
+    height: 590px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main .calculadora {
+    box-shadow: 0px 0px 20px 0px #aaa;
+  }
+
+  .textView {
+    color: rgba(231, 106, 4, 0.89);
+    background:whitesmoke;
+    line-height: 130px;
+    font-size: 6em;
+    flex: 1;
+  }
+
+  .inputBtn {
+    height: 400px;
+    display: flex;
+    width: 240px;
+  }
+
+  #text {
+    outline: none;
+    width: 355px;
+    height: 125px;
+    display: table-cell; 
+    vertical-align: middle;
+    border: 1px solid #ccc;
+  }
+
+  .calculadora .btn {
+    color: white;
+    border-right: 0;
+    font-size: 3em;
+  }
+
+  tbody {
+    display: grid;
+    vertical-align: middle;
+    border-color: inherit;
+    }
+
+    #btnDot {
+        background: linear-gradient(to bottom, rgba(202,202,204,0.6) 0%, rgba(196,194,204,1) 100%);
+    }
+    #btnC {
+        background: linear-gradient(to bottom, rgba(202,202,204,0.6) 0%, rgba(196,194,204,1) 100%);
+    }
+    #btnS {
+        background: linear-gradient(to bottom, rgba(202,202,204,0.6) 0%, rgba(196,194,204,1) 100%);
+    }
+    #btnP {
+        background: linear-gradient(to bottom, rgba(202,202,204,0.6) 0%, rgba(196,194,204,1) 100%);
+    }
+    #btn1 {
+        background: #00BCD4;
+    }
+    #btn2 {
+        background: #00BCD4;
+    }
+    #btn3 {
+        background: #00BCD4;
+    }
+    #btn4 {
+        background: #00BCD4;
+    }
+    #btn5 {
+        background: #00BCD4;
+    }
+    #btn6 {
+        background: #00BCD4;
+    }
+    #btn7 {
+        background: #00BCD4;
+    }
+    #btn8 {
+        background: #00BCD4;
+    }
+    #btn9 {
+        background: #00BCD4;
+    }
+    #btn0 {
+        background: #00BCD4;
+    }
+    #btnD {
+        color: white;
+        border-right: 0;
+        font-size: 3em;
+        background:  linear-gradient(to bottom, rgba(252,156,23,0.6) 0%, rgba(247,126,27,1) 100%);
+    }
+    #btnM {
+        color: white;
+        border-right: 0;
+        font-size: 3em;
+        background:  linear-gradient(to bottom, rgba(252,156,23,0.6) 0%, rgba(247,126,27,1) 100%);
+    }
+    #btnSub {
+        color: white;
+        border-right: 0;
+        font-size: 3em;
+        background:  linear-gradient(to bottom, rgba(252,156,23,0.6) 0%, rgba(247,126,27,1) 100%);
+    }
+    #btnAdd {
+        color: white;
+        border-right: 0;
+        font-size: 3em;
+        background:  linear-gradient(to bottom, rgba(252,156,23,0.6) 0%, rgba(247,126,27,1) 100%);
+    }
+    #btnEq {
+        color: white;
+        border-right: 0;
+        font-size: 3em;
+        background:  linear-gradient(to bottom, rgba(252,156,23,0.6) 0%, rgba(247,126,27,1) 100%);
+        width: 170px;
+    }
